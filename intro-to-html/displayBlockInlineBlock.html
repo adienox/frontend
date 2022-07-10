@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Block and Inline Block</title>
+    <style>
+        p {
+            width: 300px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #logo {
+            display: block;
+            margin: auto;
+            margin-bottom: 8px;
+        }
+        #search-box {
+            width: 300px;
+            border: none;
+            display: block;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+            margin: auto;
+        }
+        input {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(200, 200, 200);
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 16px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        #firstName, #lastName {
+            width: 115px;
+        }
+        #email {
+            width: 267px;
+            display: block;
+        }
+        #signUp {
+            background-color: rgb(47, 127, 231);
+            color: white;
+            border: none;
+            width: 300px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        #pickup, #destination {
+            display: block;
+            border: none;
+            background-color: rgb(228, 228, 228);
+            color: gray;
+            border-radius: 0;
+            width: 300px;
+        }
+        #request, #schedule {
+            padding: 16px 8px;
+            border: none;
+            margin-top: 20px;
+        }
+        #request {
+            background-color: black;
+            color: white;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+    <hr>
+    <p>Thanks for chatting with our customer support. Would you like to take a qucik survey?</p>
+    <button>Yes</button>
+    <button>No</button>
+    <hr>
+    <img id="logo" src="../media/googleLogo.png" alt="Google logo">
+    <input id='search-box' type="text" placeholder="Enter url to search">
+    <hr>
+    <input type="text" id="firstName" placeholder="Last Name">
+    <input type="text" id="lastName" placeholder="Last Name">
+    <input type="text" id="email" placeholder="Email">
+    <button id="signUp">Sign Up</button>
+    <hr>
+    <input type="text" id="pickup" placeholder="Enter pickup location">
+    <input type="text" id="destination" placeholder="Enter destinaiton">
+    <button id="request">Request Now</button>
+    <button id="schedule">Schedule for later</button>
+</body>
+</html>

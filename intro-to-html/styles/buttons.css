@@ -1,0 +1,127 @@
+button {
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 10px 16px;
+}
+#sub {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+}
+#sub:hover {
+    opacity: 0.7;
+}
+#sub:active {
+    opacity: 0.4;
+}
+#join {
+    background-color: white;
+    color: rgb(12, 114, 183);
+    border-style: solid;
+    border-color: rgb(12, 114, 183);
+    border-radius: 2px;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+    padding: 9px 16px;
+}
+#join:hover {
+    background-color: rgb(12, 114, 183);
+    color: white;
+}
+#join:active {
+    opacity: 0.7;
+}
+#tweet {
+    background-color: rgb(12, 114, 183);
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    border-style: solid;
+    border: none;
+    transition: box-shadow 0.15s;
+}
+#tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+#uber {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: opacity 0.15s;
+}
+#uber:hover {
+    opacity: 0.8;
+}
+#amazon {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 18px;
+    transition: background-color 0.15s;
+}
+#amazon:hover {
+    background-color: rgb(240, 203, 20);
+}
+#github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+#github:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+#boo {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+#boo:hover {
+    background-color: rgb(97, 66, 143);
+}
+#bood {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 9px 16px;
+    transition: background-color 0.15s, color 0.15s;
+}
+#bood:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+#linkedin {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    transition: background-color 0.15s;
+}
+#linkedin:hover {
+    background-color: rgb(8, 88, 167);
+}
+#linkedins {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-radius: 18px;
+    font-weight: bold;
+    padding: 9px 16px;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+#linkedins:hover {
+    background-color: rgb(169, 213, 255);
+    border-width: 3px;
+}

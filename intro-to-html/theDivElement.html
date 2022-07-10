@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Div Element</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 20px;
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50px;
+            margin-bottom: 20px;
+        }
+        .response {
+            border-width: 1px;
+            border-style: solid;
+            padding: 10px;
+            width: 350px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .ytMusic {
+            width: 350px;
+            background-color: rgb(19, 19, 19);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .heading {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .subHeading {
+            color: gray;
+        }
+        .tweet {
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+            border-radius: 7px;
+            width: 350px;
+            margin-bottom: 10px;
+        }
+        .profile {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            vertical-align: middle;
+        }
+        .tweetContent {
+            border: none;
+        }
+        .tweetBtn {
+        background-color: rgb(12, 114, 183);
+        color: white;
+        font-weight: bold;
+        border-radius: 18px;
+        border-style: solid;
+        border: none;
+        transition: box-shadow 0.15s;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        padding: 10px 16px;
+        }
+        .friend {
+            width: 200px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .friendProfile {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .friendName {
+            font-weight: bold;
+            padding: 5px;
+            padding-bottom: 0px;
+        }
+        .mutualFriends {
+            color: gray;
+            padding: 5px;
+            padding-top: 0px;
+        }
+        .add {
+        background-color: rgb(12, 114, 183);
+        color: white;
+        font-weight: bold;
+        border-style: solid;
+        border-radius: 7px;
+        border: none;
+        transition: box-shadow 0.15s;
+        cursor: pointer;
+        margin: 5px;
+        padding: 10px 16px;
+        }
+        .friends {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .search {
+            text-align: center;
+        }
+        .searchBox {
+            padding: 10px;
+            width: 500px;
+            border: none;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+            border-radius: 50px;
+            margin-bottom: 30px;
+        }
+        .search, button {
+            padding: 10px 16px;
+            margin-right: 10px;
+            border: none;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+    <div class="circle"></div>
+    <div class="response">
+        <p class="question">Satisfied with our service?</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <div class="ytMusic">
+        <p class="heading">Install Youtube Music</p>
+        <p class="subHeading">Add Youtube Music to desktop for quick and eask access</p>
+    </div>
+    <div class="tweet">
+        <img class="profile" src="../media/cat.jpg" alt="profile">
+        <input class="tweetContent" type="text" placeholder="What's happening?">
+        <button class="tweetBtn">Tweet</button>
+    </div>
+    <div class="friend">
+        <img class="friendProfile" src="../media/cat.jpg" alt="Profile">
+        <p class="friendName">Oliver</p>
+        <p class="mutualFriends">2 mutual friends</p>
+        <button class="add">Add Friend</button>
+    </div>
+    <div class="friends">    
+        <div class="friend">
+            <img class="friendProfile" src="../media/cat.jpg" alt="Profile">
+            <p class="friendName">Oliver</p>
+            <p class="mutualFriends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+        <div class="friend">
+            <img class="friendProfile" src="../media/cat.jpg" alt="Profile">
+            <p class="friendName">Oliver</p>
+            <p class="mutualFriends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+        <div class="friend">
+            <img class="friendProfile" src="../media/cat.jpg" alt="Profile">
+            <p class="friendName">Oliver</p>
+            <p class="mutualFriends">2 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+    </div>
+    <div class="search">
+        <div class="logo">
+            <img src="../media/googleLogo.png" alt="logo" class="logo">
+        </div>
+        <div>
+            <input class="searchBox" type="text" placeholder="Search Google or type a URL">
+        </div>
+        <div class="buttons">
+            <button>Google search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+    </div>
+</body>
+</html>

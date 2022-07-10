@@ -1,0 +1,45 @@
+.page {
+    padding: 10px 16px;
+    margin: 8px;
+}
+a {
+    margin: 2px;
+}
+#stretch {
+    transition: padding 0.15s;
+    padding: 10px 16px;
+    margin: 8px;
+}
+#stretch:hover {
+    padding: 20px 26px;
+}
+#d {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px 16px;
+    margin: 8px;
+}
+#d:active {
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: none;
+}
+.num {
+    padding: 10px 16px;
+    margin: 8px;
+    transition: padding 0.15s, margin-left 0.15s, margin-right 0.15s;
+}
+#one:hover {
+    padding: 10px 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#two:hover {
+    padding: 10px 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#three:hover {
+    padding: 10px 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
