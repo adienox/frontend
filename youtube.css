@@ -1,9 +1,41 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.channel-photo {
+.videoPreview {
+    width: 300px;
+    vertical-align: top;
     display: inline-block;
 }
-.video-text {
+.thumbnail {
+    margin-bottom: 12px;
+}
+.thumbnail img {
+    width: 300px;
+}
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 20px;
+}
+.author, .data {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin: 0;
+}
+.author {
+    margin-bottom: 4px;
+}
+.channelPhoto {
     display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.channelPhoto img {
+    width: 40px;
+    border-radius: 25px;
+}
+.videoText {
+    display: inline-block;
+    width: 200px;
 }
