@@ -1,16 +1,18 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-.videoPreview {
-    width: 300px;
-    vertical-align: top;
-    display: inline-block;
+.videoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 20px;
 }
 .thumbnail {
     margin-bottom: 12px;
 }
 .thumbnail img {
-    width: 300px;
+    width: 100%;
+}
+.videoInfo {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 .title {
     font-weight: 500;
@@ -26,16 +28,7 @@ body {
 .author {
     margin-bottom: 4px;
 }
-.channelPhoto {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
 .channelPhoto img {
     width: 40px;
     border-radius: 25px;
-}
-.videoText {
-    display: inline-block;
-    width: 200px;
 }
