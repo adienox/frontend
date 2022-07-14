@@ -20,7 +20,8 @@
     margin-top: 0;
     line-height: 20px;
 }
-.author, .data {
+.author,
+.data {
     font-size: 14px;
     color: rgb(96, 96, 96);
     margin: 0;
