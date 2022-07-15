@@ -35,7 +35,8 @@
     display: flex;
     justify-content: space-between;
 }
-.f2b2i2r1, .f2b2i2r2 {
+.f2b2i2r1,
+.f2b2i2r2 {
     background-color: black;
     color: white;
 }
@@ -106,7 +107,6 @@ p {
     border-radius: 17px;
     margin-top: 12px;
     width: 100%;
-
 }
 .attatchmentPicture {
     width: 200px;
