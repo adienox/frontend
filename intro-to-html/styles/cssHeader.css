@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    top: 10px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftSection {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.leftSection img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.add {
+    background-color: rgb(96, 96, 255);
+    color: white;
+
+}
