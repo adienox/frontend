@@ -1,0 +1,134 @@
+.blue {
+    background-color: aquamarine;
+}
+.pink {
+    background-color: pink;
+}
+.flex1 {
+    display: flex;
+}
+.f1b1 {
+    width: 200px;
+}
+.f1b2 {
+    width: 75px;
+}
+.flex2 {
+    display: flex;
+}
+.f2b1 {
+    width: 50px;
+}
+.f2b2 {
+    flex: 1;
+}
+.f2b3 {
+    width: 75px;
+}
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border: 2px solid gray;
+}
+.messageBox {
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.subBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: 500;
+}
+.count {
+    background-color: rgb(88, 88, 253);
+    color: white;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 50px;
+    background-color: rgb(120, 82, 178);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.leftSection {
+    width: 50px;
+    font-weight: 700;
+}
+.midSection input {
+    width: 500px;
+    border: none;
+    margin: 12px 0px;
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.rightSection button {
+    padding: 10px 16px;
+    color: white;
+    background-color: rgb(120, 82, 178);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.follow {
+    width: 300px;
+}
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.profile {
+    width: 50px;
+}
+.profile img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.info {
+    flex: 1;
+}
+.info span {
+    display: block;
+    margin-left: 20px;
+}
+.name {
+    font-weight: 700;
+}
+.about {
+    color: gray;
+    font-weight: 500;
+}
+.popularity {
+    color: gray;
+}
+.followButton button {
+    color: white;
+    background-color: rgb(12, 114, 183);
+    border: none;
+    padding: 10px 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
