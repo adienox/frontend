@@ -1,0 +1,44 @@
+.sidebar {
+    display: flex;
+}
+.leftSection {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    background-color: rgb(39, 39, 39);
+}
+.leftSection img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: block;
+    margin: 10px;
+}
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.rightSection {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 70px;
+    padding: 10px;
+    background-color: rgb(53, 53, 53);
+    color: gray;
+    width: 170px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-weight: 700;
+    color: white;
+}
+.info span {
+    font-weight: 700;
+    color: gray;
+}
