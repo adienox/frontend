@@ -8,6 +8,7 @@ header {
     right: 0;
     height: 55px;
     border-bottom: 1px solid rgb(222, 222, 222);
+    z-index: 1;
 }
 .leftSection {
     display: flex;
