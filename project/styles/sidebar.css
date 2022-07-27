@@ -5,6 +5,7 @@ nav {
     bottom: 0;
     left: 0;
     background-color: white;
+    z-index: 2;
 }
 .sidebarButton {
     font-size: 10px;
