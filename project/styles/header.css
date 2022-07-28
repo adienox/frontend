@@ -86,26 +86,3 @@ header {
     border-radius: 15px;
     margin-right: 20px;
 }
-.tooltipContent {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.searchButton .tooltip,
-.voiceSearchButton .tooltip,
-.tooltipContent .tooltip {
-    background-color: gray;
-    color: white;
-    font-size: 12px;
-    position: absolute;
-    bottom: -35px;
-    padding: 4px 8px;
-    border-radius: 3px;
-    opacity: 0;
-    transition: opacity 0.15s;
-}
-.searchButton:hover .tooltip,
-.voiceSearchButton:hover .tooltip,
-.tooltipContent:hover .tooltip {
-    opacity: 1;
-}
