@@ -1,0 +1,13 @@
+.videoPage {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
+
+.videoContent {
+    background-color: lightblue;
+    height: 1100px;
+}
+.videoRecommendations {
+    padding-left: 24px;
+    background-color: lightpink;
+}

@@ -1,0 +1,24 @@
+.video {
+    width: 100%;
+    height: 640px;
+    background-color: gray;
+}
+.title {
+    font-size: 18px;
+    font-weight: 400;
+}
+.videoInfo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.videoData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.videoData span {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+.videoData img {
+    width: 24px;
+}
